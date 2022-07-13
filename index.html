@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +8,37 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header></header>
-        <main></main>
-        <footer></footer>
+        <!-- 
+            Header Pagina 
+        -->
+        <header>
+            <nav class="d-flex j-sp-between al-it-center">
+                <div>
+                    <img src="img/logobool.png" alt="Logo Boolean">
+                    <h1>Campo Minato</h1>
+                </div>
+                <div>
+                    <label for="d-level">Difficoltà:</label>
+                    <select id="d-level">
+                        <option value="easy">Facile</option>
+                        <option value="diff">Difficile</option>
+                    </select>
+                    <button id="play">Play</button>
+                </div>
+            </nav>
+        </header>
+        <!-- 
+            Corpo Pagina 
+        -->
+        <main>
+            <div id="main-cont"></div>
+        </main>
+        <!-- 
+            Footer Pagina 
+        -->
+        <footer>
+            <p>Made with &hearts; by <a href="#">Boolean</a></p>
+        </footer>
         <script src="js/main.js"></script>
     </body>
 </html>
