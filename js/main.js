@@ -37,7 +37,6 @@ play.addEventListener('click',
                 cell.addEventListener('click',
                     function () {
                         this.classList.toggle('clicked')
-                        console.log(`cliccato ${this[i]}`)
                         this.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
                     });
                 }
